@@ -77,3 +77,43 @@ if unit == "length":
             amount = input("Enter the amount: ")
             formula = float(amount) / 9.461e+18
             print(str(formula) + " ly")
+    if x_type == "m":
+        y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
+        if y_type == "m":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " m")
+        if y_type == "cm":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 100
+            print(str(formula) + " cm")
+        if y_type == "mm":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1000
+            print(str(formula) + " mm")
+        if y_type == "in":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 39.37
+            print(str(formula) + " in")
+        if y_type == "ft":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 3.281
+            print(str(formula) + " in")
+        if y_type == "km":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 1000
+            print(str(formula) + " km")
+        if y_type == "mi":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 1609
+            print(str(formula) + " mi")
+        if y_type == "yd":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1094
+            print(str(formula) + " yd")
+        if y_type == "ly":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 9,461e+15
+            print(str(formula) + " ly")
+    if x_type == "in":
+        
