@@ -343,3 +343,77 @@ if unit == "length":
             amount = input("Enter the amount: ")
             formula = float(amount) * 1.035e+16
             print(str(formula) + " yd")
+if unit == "weight":
+    x_type = input("Enter the first unit type (ton, kg, lb, g): ")
+    if x_type == "ton":
+        y_type = input("Enter the second unit type (ton, kg, lb, g): ")
+        if y_type == "ton":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " ton")
+        if y_type == "kg":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1000
+            print(str(formula) + " kg")
+        if y_type == "lb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 2205
+            print(str(formula) + " lb")
+        if y_type == "g":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1e+6
+            print(str(formula) + " g")
+    if x_type == "kg":
+        y_type = input("Enter the second unit type (ton, kg, lb, g): ")
+        if y_type == "kg":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " kg")
+        if y_type == "ton":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 1000
+            print(str(formula) + " ton")
+        if y_type == "lb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 2.205
+            print(str(formula) + " lb")
+        if y_type == "g":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1000
+            print(str(formula) + " g")
+    if x_type == "lb":
+        y_type = input("Enter the second unit type (ton, kg, lb, g): ")
+        if y_type == "lb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " lb")
+        if y_type == "ton":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 2205
+            print(str(formula) + " ton")
+        if y_type == "kg":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 2.205
+            print(str(amount) + " kg")
+        if y_type == "g":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 453.6
+            print(str(formula) + " g")
+    if x_type == "g":
+        y_type = input("Enter the second unit type (ton, kg, lb, g): ")
+        if y_type == "g":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " g")
+        if y_type == "ton":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 1e+6
+            print(str(formula) + " ton")
+        if y_type == "kg":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 1000
+            print(str(formula) + " kg")
+        if y_type == "lb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 453.6
+            print(str(formula) + " lb")
