@@ -1,4 +1,4 @@
-unit = input("Select the unit please (length, weight, temperature, digital-storage, data-transfer): ")
+unit = input("Select the unit please (length, weight, temperature, digital-storage, data-transfer-Second): ")
 if unit == "length":
     x_type = input("Enter the first unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
     if x_type == "cm":
