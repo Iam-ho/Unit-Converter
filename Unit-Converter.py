@@ -460,3 +460,11 @@ if unit == "temperature":
             amount = input("Enter the amount: ")
             formula = (float(amount) - 32) * 5/9
             print(str(formula) + " c")
+if unit == "digital-storage":
+    x_type = input("Enter the first unit type(Bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+    if x_type == "Bit":
+        y_type = input("Enter the second unit type(Bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+        if y_type == "Bit":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " Bit")
