@@ -416,28 +416,6 @@ if unit == "weight":
         if y_type == "lb":
             amount = input("Enter the amount: ")
             formula = float(amount) / 453.6
-      if unit == "temperature":
-    x_type = input("Enter the first unit type(c, f): ")
-    if x_type == "c":
-        y_type = input("Enter the second unit type (c, f): ")
-        if y_type == "c":
-            amount = input("Enter the amount: ")
-            formula = float(amount) * 1
-            print(str(formula) + " c")
-        if y_type == "f":
-            amount = input("Enter the amount: ")
-            formula = (float(amount) * 9/5) + 32
-            print(str(formula) + " f")
-    if x_type == "f":
-        y_type = input("Enter the second unit type(c, f): ")
-        if y_type == "f":
-            amount = input("Enter the amount: ")
-            formula = float(amount) * 1
-            print(str(formula) + " f")
-        if y_type == "c":
-            amount = input("Enter the amount: ")
-            formula = (float(amount) - 32) * 5/9
-            print(str(formula) + " c")      print(str(formula) + " lb")
 if unit == "temperature":
     x_type = input("Enter the first unit type(c, f): ")
     if x_type == "c":
@@ -468,3 +446,7 @@ if unit == "digital-storage":
             amount = input("Enter the amount: ")
             formula = float(amount) * 1
             print(str(formula) + " Bit")
+        if y_type == "kb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) / 8000
+            print(str(formula) + " kb")
