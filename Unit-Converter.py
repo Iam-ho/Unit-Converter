@@ -439,14 +439,105 @@ if unit == "temperature":
             formula = (float(amount) - 32) * 5/9
             print(str(formula) + " c")
 if unit == "digital-storage":
-    x_type = input("Enter the first unit type(Bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
-    if x_type == "Bit":
-        y_type = input("Enter the second unit type(Bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
-        if y_type == "Bit":
+    x_type = input("Enter the first unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+    if x_type == "bit":
+        y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+        if y_type == "bit":
             amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " Bit")
+            print(str(formula) + " bit")
         if y_type == "kb":
             amount = input("Enter the amount: ")
-            formula = float(amount) / 8000
+            formula = float(amount) * 10**-3
             print(str(formula) + " kb")
+        if y_type == "Mb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-6
+            print(str(formula) + " Mb")
+        if y_type == "Gb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-9
+            print(str(formula) + " Gb")
+        if y_type == "Tb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-12
+            print(str(formula) + " Tb")
+        if y_type == "Pb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-15
+            print(str(formula) + " Pb")
+        if y_type == "Byte":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 0.125
+            print(str(formula) + " Byte")
+        if y_type == "kB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-6
+            print(str(formula) + " kB")
+        if y_type == "MB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-9
+            print(str(formula) + " MB")
+        if y_type == "GB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-12
+            print(str(formula) + " GB")
+        if y_type == "TB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-15
+            print(str(formula) + " TB")
+        if y_type == "PB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-18
+            print(str(formula) + " PB")
+    if x_type == "kb":
+        y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+        if y_type == "kb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1
+            print(str(formula) + " kb")
+        if y_type == "bit":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 1000
+            print(str(formula) + " bit")
+        if y_type == "Mb":
+            amount = input("Enter the amount: ")
+            formula= float(amount) * 10**-3
+            print(str(formula) + " Mb")
+        if y_type == "Gb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-6
+            print(str(formula) + " Gb")
+        if y_type == "Tb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-9
+            print(str(formula) + " Tb")
+        if y_type == "Pb":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 10**-12
+            print(str(formula) + " Pb")
+        if y_type == "Byte":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125
+            print(str(formula) + " Byte")
+        if y_type == "kB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 0.125
+            print(str(formula) + " kB")
+        if y_type == "MB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-6
+            print(str(formula) + " MB")
+        if y_type == "GB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-9
+            print(str(formula) + " GB")
+        if y_type == "TB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-12
+            print(str(formula) + " TB")
+        if y_type == "PB":
+            amount = input("Enter the amount: ")
+            formula = float(amount) * 125*10**-15
+            print(str(formula) + " PB")
+    #if x_type == "Mb":
