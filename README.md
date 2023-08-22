@@ -7,7 +7,7 @@ weight (ton, kg, lb, g)
 
 temperature (C, F, K, R)
 
-digital-storage (Bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB)
+digital-storage (bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB)
 
-data-transfer-Second (Bit/s, kB/s, Mb/s, Gb/s, Tb/s, Pb/s, Byte/s, kB/s, MB/s, GB/s, TB/s)
+data-transfer-Second (Byte/s, kB/s, MB/s, GB/s, TB/s, PB/s)
 
