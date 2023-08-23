@@ -1,543 +1,462 @@
 unit = input("Select the unit please (length, weight, temperature, digital-storage, data-transfer-Second): ")
 if unit == "length":
     x_type = input("Enter the first unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
+    amount = input("Enter the amount: ")
     if x_type == "cm":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = amount * 1
             print(formula + " cm")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 2.54
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 30.48
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 100000
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 160900
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 91.44
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 100
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 9.461e+17
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "mm":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = amount * 1
             print(formula + " mm")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 10
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 25.4
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 304.8
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1e-6
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1.609e+6
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 914.4
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1000
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 9.461e+18
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "m":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 100
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1000
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 39.37
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 3.281
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1000
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1609
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1094
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 9,461e+15
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "in":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 2.54
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 39.37
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 25.4
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "ft":
-            amount =input("Enter the amount: ")
             formula = float(amount) / 12
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 39370
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount ")
             formula = float(amount) / 2.54e+7
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount ")
             formula = float(amount) / 36
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula =float(amount) / 3.725e+17
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "ft":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 30.48
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 3.281
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 304.8
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 12
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 3281
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 5280
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 3
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 3.104e+16
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "km":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 100000
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1000
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1e+6
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 39370
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 3281
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1.609
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1904
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 9.461e+12
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "mi":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 160900
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1609
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1.609e+6
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 63360
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 5280
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1.609
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1760
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 5.879e+12
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "yd":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " yd")
+            print((formula), " yd")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 91.44
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1.094
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 914.4
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 36
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 3
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1094
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1760
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1.035e+16
-            print(str(formula) + " ly")
+            print((formula), " ly")
     if x_type == "ly":
         y_type = input("Enter the second unit type (cm, m, mm, in, ft, km, mi, yd, ly): ")
         if y_type == "ly":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " ly")
+            print((formula), " ly")
         if y_type == "cm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 9.461e+17
-            print(str(formula) + " cm")
+            print((formula), " cm")
         if y_type == "m":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 9.461e+15
-            print(str(formula) + " m")
+            print((formula), " m")
         if y_type == "mm":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 9.461e+18
-            print(str(formula) + " mm")
+            print((formula), " mm")
         if y_type == "in":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 3.725e+17
-            print(str(formula) + " in")
+            print((formula), " in")
         if y_type == "ft":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 3.104e+16
-            print(str(formula) + " ft")
+            print((formula), " ft")
         if y_type == "km":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 9.461e+12
-            print(str(formula) + " km")
+            print((formula), " km")
         if y_type == "mi":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 5.879e+12
-            print(str(formula) + " mi")
+            print((formula), " mi")
         if y_type == "yd":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1.035e+16
-            print(str(formula) + " yd")
+            print((formula), " yd")
 if unit == "weight":
     x_type = input("Enter the first unit type (ton, kg, lb, g): ")
+    amount = input("Enter the amount: ")
     if x_type == "ton":
         y_type = input("Enter the second unit type (ton, kg, lb, g): ")
         if y_type == "ton":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " ton")
+            print((formula), " ton")
         if y_type == "kg":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1000
-            print(str(formula) + " kg")
+            print((formula), " kg")
         if y_type == "lb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 2205
-            print(str(formula) + " lb")
+            print((formula), " lb")
         if y_type == "g":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1e+6
-            print(str(formula) + " g")
+            print((formula), " g")
     if x_type == "kg":
         y_type = input("Enter the second unit type (ton, kg, lb, g): ")
         if y_type == "kg":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " kg")
+            print((formula), " kg")
         if y_type == "ton":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1000
-            print(str(formula) + " ton")
+            print((formula), " ton")
         if y_type == "lb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 2.205
-            print(str(formula) + " lb")
+            print((formula), " lb")
         if y_type == "g":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1000
-            print(str(formula) + " g")
+            print((formula), " g")
     if x_type == "lb":
+        amount = input("Enter the amount: ")
         y_type = input("Enter the second unit type (ton, kg, lb, g): ")
         if y_type == "lb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " lb")
+            print((formula), " lb")
         if y_type == "ton":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 2205
-            print(str(formula) + " ton")
+            print((formula), " ton")
         if y_type == "kg":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 2.205
             print(str(amount) + " kg")
         if y_type == "g":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 453.6
-            print(str(formula) + " g")
+            print((formula), " g")
     if x_type == "g":
+        amount = input("Enter the amount: ")
         y_type = input("Enter the second unit type (ton, kg, lb, g): ")
         if y_type == "g":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " g")
+            print((formula), " g")
         if y_type == "ton":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1e+6
-            print(str(formula) + " ton")
+            print((formula), " ton")
         if y_type == "kg":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 1000
-            print(str(formula) + " kg")
+            print((formula), " kg")
         if y_type == "lb":
-            amount = input("Enter the amount: ")
             formula = float(amount) / 453.6
 if unit == "temperature":
     x_type = input("Enter the first unit type(c, f): ")
+    amount = input("Enter the amount: ")
     if x_type == "c":
         y_type = input("Enter the second unit type (c, f): ")
         if y_type == "c":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " c")
+            print((formula), " c")
         if y_type == "f":
-            amount = input("Enter the amount: ")
             formula = (float(amount) * 9/5) + 32
-            print(str(formula) + " f")
+            print((formula), " f")
     if x_type == "f":
         y_type = input("Enter the second unit type(c, f): ")
         if y_type == "f":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " f")
+            print((formula), " f")
         if y_type == "c":
-            amount = input("Enter the amount: ")
             formula = (float(amount) - 32) * 5/9
-            print(str(formula) + " c")
+            print((formula), " c")
 if unit == "digital-storage":
     x_type = input("Enter the first unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+    amount = input("Enter the amount: ")
     if x_type == "bit":
         y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
         if y_type == "bit":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " bit")
+            print((formula), " bit")
         if y_type == "kb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-3
-            print(str(formula) + " kb")
+            print((formula), " kb")
         if y_type == "Mb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-6
-            print(str(formula) + " Mb")
+            print((formula), " Mb")
         if y_type == "Gb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-9
-            print(str(formula) + " Gb")
+            print((formula), " Gb")
         if y_type == "Tb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-12
-            print(str(formula) + " Tb")
+            print((formula), " Tb")
         if y_type == "Pb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-15
-            print(str(formula) + " Pb")
+            print((formula), " Pb")
         if y_type == "Byte":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 0.125
-            print(str(formula) + " Byte")
+            print((formula), " Byte")
         if y_type == "kB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-6
-            print(str(formula) + " kB")
+            print((formula), " kB")
         if y_type == "MB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-9
-            print(str(formula) + " MB")
+            print((formula), " MB")
         if y_type == "GB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-12
-            print(str(formula) + " GB")
+            print((formula), " GB")
         if y_type == "TB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-15
-            print(str(formula) + " TB")
+            print((formula), " TB")
         if y_type == "PB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-18
-            print(str(formula) + " PB")
+            print((formula), " PB")
     if x_type == "kb":
         y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
         if y_type == "kb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1
-            print(str(formula) + " kb")
+            print((formula), " kb")
         if y_type == "bit":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 1000
-            print(str(formula) + " bit")
+            print((formula), " bit")
         if y_type == "Mb":
-            amount = input("Enter the amount: ")
             formula= float(amount) * 10**-3
-            print(str(formula) + " Mb")
+            print((formula), " Mb")
         if y_type == "Gb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-6
-            print(str(formula) + " Gb")
+            print((formula), " Gb")
         if y_type == "Tb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-9
-            print(str(formula) + " Tb")
+            print((formula), " Tb")
         if y_type == "Pb":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 10**-12
-            print(str(formula) + " Pb")
+            print((formula), " Pb")
         if y_type == "Byte":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125
-            print(str(formula) + " Byte")
+            print((formula), " Byte")
         if y_type == "kB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 0.125
-            print(str(formula) + " kB")
+            print((formula), " kB")
         if y_type == "MB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-6
-            print(str(formula) + " MB")
+            print((formula), " MB")
         if y_type == "GB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-9
-            print(str(formula) + " GB")
+            print((formula), " GB")
         if y_type == "TB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-12
-            print(str(formula) + " TB")
+            print((formula), " TB")
         if y_type == "PB":
-            amount = input("Enter the amount: ")
             formula = float(amount) * 125*10**-15
-            print(str(formula) + " PB")
-    #if x_type == "Mb":
+            print((formula), " PB")
+    if x_type == "Mb":
+        y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+        if y_type == "Mb":
+            formula = float(amount) * 1
+            print((formula), " Mb")
+        if y_type == "bit":
+            formula = float(amount) * 1000000
+            print((formula), " bit")
+        if y_type == "kb":
+            formula = float(amount) * 1000
+            print((formula), " kb")
+        if y_type == "Gb":
+            formula = float(amount) * 10**-3
+            print((formula), " Gb")
+        if y_type == "Tb":
+            formula = float(amount) * 10**-6
+            print((formula), " Tb")
+        if y_type == "Pb":
+            formula = float(amount) * 10**-9
+            print((formula), " Pb")
+        if y_type == "Byte":
+            formula = float(amount) * 125000
+            print((formula), " Byte")
+        if y_type == "kB":
+            formula = float(amount) * 125
+            print((formula), " kB")
+        if y_type == "MB":
+            formula = float(amount) * 0.125
+            print((formula), " MB")
+        if y_type == "GB":
+            formula = float(amount) * 125*10**-6
+            print((formula), " GB")
+        if y_type == "TB":
+            formula = float(amount) * 125*10**-9
+            print((formula), " TB")
+        if y_type == "PB":
+            formula = float(amount) * 125*10**-12
+            print((formula), " PB")
+    #if x_type == "Gb":
