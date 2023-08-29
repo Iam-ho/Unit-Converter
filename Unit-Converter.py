@@ -459,4 +459,41 @@ if unit == "digital-storage":
         if y_type == "PB":
             formula = float(amount) * 125*10**-12
             print((formula), " PB")
-    #if x_type == "Gb":
+    if x_type == "Gb":
+        y_type = input("Enter the second unit type(bit, kb, Mb, Gb, Tb, Pb, Byte, kB, MB, GB, TB, PB): ")
+        if y_type == "Gb":
+            formula = float(amount) * 1
+            print((formula), " Gb")
+        if y_type == "bit":
+            formula = float(amount) * 10**9
+            print((formula), " bit")
+        if y_type == "kb":
+            formula = float(amount) * 10**6
+            print((formula), " kb")
+        if y_type == "Mb":
+            formula = float(amount) * 10**3
+            print((formula), " Mb")
+        if y_type == "Tb":
+            formula = float(amount) * 10**-3
+            print((formula), " Tb")
+        if y_type == "Pb":
+            formula = float(amount) * 10**-6
+            print((formula), " Pb")
+        if y_type == "Byte":
+            formula = float(amount) * 125*10**6
+            print((formula), " Byte")
+        if y_type == "kB":
+            formula = float(amount) * 125*10**3
+            print((amount), " kB")
+        if y_type == "MB":
+            formula = float(amount) * 125
+            print((formula), " MB")
+        if y_type == "GB":
+            formula = float(amount) * 125*10**-3
+            print((formula), " GB")
+        if y_type == "TB":
+            formula = float(amount) * 125*10**-6
+            print((formula), " TB")
+        if y_type == "PB":
+            formula = float(amount) * 125*10**-9
+            print((formula), " PB")
